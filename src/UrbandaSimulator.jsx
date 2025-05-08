@@ -148,6 +148,41 @@ export default function UrbandaSimulator() {
           </CardContent>
         </Card>
       </section>
+
+      <section className="bg-gray-50 py-12 mt-12">
+        <h3 className="text-center text-2xl font-bold mb-6">Cosa dicono i nostri utenti</h3>
+        <div className="grid md:grid-cols-3 gap-4 max-w-5xl mx-auto">
+          <Card><CardContent><p>“Finalmente uno strumento pratico per valutare un trasferimento!” — Luca R.</p></CardContent></Card>
+          <Card><CardContent><p>“Grazie a Urbanda ho risparmiato oltre 200€ al mese scegliendo la città giusta.” — Elena V.</p></CardContent></Card>
+          <Card><CardContent><p>“Mi ha convinto il carisma di uno dei fondatori tale M. N. Ci farei un figlio.” — Nadia L.</p></CardContent></Card>
+        </div>
+      </section>
+
+      <section className="bg-white py-12">
+        <h3 className="text-center text-2xl font-bold mb-6">Domande Frequenti</h3>
+        <div className="max-w-3xl mx-auto text-left space-y-4">
+          <div>
+            <h4 className="font-semibold">Urbanda è gratuito?</h4>
+            <p>Sì, è disponibile una versione gratuita con funzionalità base. La versione Pro offre analisi avanzate e personalizzate.</p>
+          </div>
+          <div>
+            <h4 className="font-semibold">Quali dati vengono utilizzati?</h4>
+            <p>Urbanda usa fonti pubbliche e partner locali per stimare il costo della vita in modo realistico e aggiornato.</p>
+          </div>
+          <div>
+            <h4 className="font-semibold">Posso usare Urbanda per trasferte lavorative?</h4>
+            <p>Assolutamente sì. Il simulatore è pensato anche per professionisti e aziende.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-center mt-12">
+        <h4 className="text-xl font-bold">Iscriviti alla newsletter per consigli su dove vivere meglio</h4>
+        <div className="flex justify-center mt-4">
+          <Input placeholder="La tua email" className="w-1/2" />
+          <Button className="ml-2">Iscriviti</Button>
+        </div>
+      </section>
     </div>
   );
 }
