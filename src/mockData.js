@@ -8,8 +8,8 @@ export const mockPrices = {
   },
   Bologna: {
     affitto: 750,
-    spesa: 40,
-    groceries: 260,
+    trasporti: 40,
+    spesa: 260,
     utenze: 110,
     hobby: 140,
   },
