@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Card } from './components/ui/Card';
-import { CardContent } from './components/ui/CardContent';
-import { Input } from './components/ui/Input';
-import { Button } from './components/ui/Button';
-import { Label } from './components/ui/Label';
-import { Select } from './components/ui/Select';
-import { SelectItem } from './components/ui/SelectItem';
+import { Card } from './components/UI/Card';
+import { CardContent } from './components/UI/CardContent';
+import { Input } from './components/UI/Input';
+import { Button } from './components/UI/Button';
+import { Label } from './components/UI/Label';
+import { Select } from './components/UI/Select';
+import { SelectItem } from './components/UI/SelectItem';
 
 const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
 
